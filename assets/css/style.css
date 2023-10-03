@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
 
+
 * {
     padding: 0;
     margin: 0;
@@ -7,6 +8,9 @@
     font-family: 'Inter', sans-serif;
 }
 
+.container {
+    background: #ffff !important;
+}
 body{
     width: 100%;
     height: 100vh;
@@ -42,12 +46,13 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #fff;
-    padding: 3rem;
+    background-color: #ffff;
+    
 }
 
 .form-header {
-    margin-bottom: 3rem;
+    padding-top: 35px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -90,7 +95,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 1rem 0;
+    padding: 10px 0;
 }
 
 .input-box {
@@ -177,6 +182,7 @@ body{
     padding: 180px;
     color: #fff;
 }
+
 
 
 
